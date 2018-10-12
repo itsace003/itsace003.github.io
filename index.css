@@ -24,7 +24,9 @@ body {
 .nav div.logo {
     float: left;
     width: auto;
-    height: auto;
+    height: 60px;
+	background-color:#ffffff;
+	padding-right: 3rem;
     padding-left: 3rem;
 }
 
