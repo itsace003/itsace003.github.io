@@ -40,7 +40,7 @@ var seconds = (seconds.toLocaleString(undefined,{minimumIntegerDigits: 2}));
   // COUNTDOWN
 function makeTimer(){
     
-	var endTime = new Date("14 Juni 2019 20:00:00 GMT+02:00");			
+	var endTime = new Date("8 January 2019 20:00:00 GMT+02:00");			
 	endTime = (Date.parse(endTime) / 1000);
 
 	var now = new Date();
