@@ -1,3 +1,3 @@
 # itsace003.github.io
 
-This is a work in progress website for normal crickt league. Open to suggestions.
+This is a work in progress website for normal cricket league. Open to suggestions.
