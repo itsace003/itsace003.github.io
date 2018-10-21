@@ -751,6 +751,11 @@ a.socialIcon:hover, .socialHoverClass {
         overflow-x: hidden; 
     
     }
+    .nav div.logo a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 2.5rem;
+}
     .nav{
         height: 110px;
         font-size: 20px;
@@ -774,6 +779,14 @@ a.socialIcon:hover, .socialHoverClass {
   position: relative;
   height: 400px;
     text-align: center;
+}
+    .navTrigger i {
+    background-color: #000000;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
 }
 
 #countdown, #countdown-text {
