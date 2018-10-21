@@ -728,17 +728,17 @@ a.socialIcon:hover, .socialHoverClass {
     
     .countdown{
         font-weight: 400;
-        font-size: 50px;
+        font-size: 60px;
     }
     
     .counter-text{
         font-weight: 200;
-        font-size: 20px;
+        font-size: 22px;
     }
     .countdown-wrapper {
   position: relative;
   height: 400px;
-        margin-left: 115%;
+        margin-left: 110%;
 }
 
 #countdown, #countdown-text {
