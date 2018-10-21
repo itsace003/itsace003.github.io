@@ -84,6 +84,10 @@ body {
 .navTrigger {
     display: none;
 }
+.akade{
+    margin-left: 5%;
+    margin-top: 2%;
+}
 
 .nav {
     padding-top: 20px;
@@ -338,7 +342,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: rgba(76, 78, 78, 0.42);
+    background-color: rgb(0, 0, 0);
     
 }
 
@@ -890,4 +894,37 @@ a.socialIcon:hover, .socialHoverClass {
     float: right;!important;
     margin-top: 0;
     
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+    html{
+        font-size: 40px;
+    }
+    
+    .countdown{
+        font-weight: 200;
+        font-size: 50px;
+    }
+    
+    .counter-text{
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .countdown-wrapper {
+  position: relative;
+  height: 400px;
+        margin-left: 100%;
+}
+
+#countdown, #countdown-text {
+    width: 800px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+} 
+    .card{
+        margin-left: 100%;
+    }
 }
