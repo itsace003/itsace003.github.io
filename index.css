@@ -20,10 +20,11 @@ body {
 
 .nav {
     width: 100%;
-    height: 65px;
+    height: 85px;
     position: fixed;
-    line-height: 65px;
+    line-height: 60px;
     text-align: center;
+    background-color: #111;
 
 }
 
@@ -129,7 +130,7 @@ body {
         width: 100%;
         height: auto;
       border-radius: 10px;
-        background-color: rgba(17, 17, 17, 0.46);
+        background-color: rgba(0, 0, 0, 0.46);
         opacity: 0.8
         /*same background color of navbar*/
         background-position: center top;
@@ -165,7 +166,7 @@ body {
 }
 
 .navTrigger i {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 2px;
     content: '';
     display: block;
@@ -342,10 +343,7 @@ body {
     }
 }
 
-.affix {
-    padding: 0;
-    background-color: #111;
-}
+
 
 
 
@@ -751,15 +749,8 @@ a.socialIcon:hover, .socialHoverClass {
         overflow-x: hidden; 
     
     }
-    .nav div.logo a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 2.5rem;
-}
-    .nav{
-        height: 110px;
-        font-size: 20px;
-    }
+   
+  
     
     .imagefor{
         height: 100px;
@@ -781,7 +772,7 @@ a.socialIcon:hover, .socialHoverClass {
     text-align: center;
 }
     .navTrigger i {
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 2px;
     content: '';
     display: block;
