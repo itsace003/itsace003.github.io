@@ -11,7 +11,7 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
@@ -24,6 +24,7 @@ body {
     position: fixed;
     line-height: 65px;
     text-align: center;
+
 }
 
 .nav div.logo {
@@ -126,7 +127,7 @@ body {
     .nav div.main_list ul {
         flex-direction: column;
         width: 100%;
-        height: 35vh;
+        height: auto;
       border-radius: 10px;
         background-color: rgba(17, 17, 17, 0.46);
         opacity: 0.8
@@ -745,11 +746,14 @@ a.socialIcon:hover, .socialHoverClass {
 
 
 @media (min-width: 300px) and (max-width: 767px) {
-    html{
-        font-size: 40px;
+    html, body{
+        font-size: 20px;
+        overflow-x: hidden; 
+    
     }
     .nav{
-        width: max-content;
+        height: 110px;
+        font-size: 20px;
     }
     
     .imagefor{
