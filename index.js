@@ -1,3 +1,10 @@
+$('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
 var countDownDate = new Date("Jan 8, 2019 12:00:00").getTime();
 
 // Update the count down every 1 second
