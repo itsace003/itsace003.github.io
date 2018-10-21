@@ -27,7 +27,9 @@ body {
     height: auto;
     padding-left: 3rem;
 }
-
+.second{
+    text-align: center;
+}
 .nav div.logo a {
     text-decoration: none;
     color: #fff;
@@ -80,14 +82,15 @@ body {
     background-position: center;
 	background-size:cover;
 }
+.format{
+    width: 600px;
+    margin: 0;
+}
 
 .navTrigger {
     display: none;
 }
-.akade{
-    margin-left: 5%;
-    margin-top: 2%;
-}
+
 
 .nav {
     padding-top: 20px;
@@ -538,6 +541,27 @@ a {
 	
     background-color: #222;
 }
+.format{
+      width: auto;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 0;
+    padding: 100px;
+    text-align: center;
+}
+.imagefor{
+    height: 500px;
+    text-align: center;
+}
+
+.about{
+     width: auto;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 0;
+    padding: 5px;
+    text-align: center;
+}
 
 .sponser-images{
     margin: auto;
@@ -764,3 +788,20 @@ a.socialIcon:hover, .socialHoverClass {
 }
     
 }
+
+.tournament{
+    text-align: center;
+}
+table, td, th {    
+    border: 1.5px solid #ddd;
+    text-align: left;
+   
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 100px;
