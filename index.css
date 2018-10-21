@@ -744,7 +744,8 @@ a.socialIcon:hover, .socialHoverClass {
     }
     
     .imagefor{
-        height: 150px;
+        height: 100px;
+        text-align: center;
     }
     
     .countdown{
