@@ -721,7 +721,7 @@ a.socialIcon:hover, .socialHoverClass {
         }
 
 
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
     html{
         font-size: 40px;
     }
@@ -738,7 +738,7 @@ a.socialIcon:hover, .socialHoverClass {
     .countdown-wrapper {
   position: relative;
   height: 400px;
-        margin-left: 100%;
+        margin-left: 115%;
 }
 
 #countdown, #countdown-text {
