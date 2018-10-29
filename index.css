@@ -523,8 +523,26 @@ a {
     height: auto;
     background-color: #eee;
     margin-top: 0;
+    color: whitesmoke;
     padding: 5px;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+#about{
     text-align: center;
+}
+.second1{
+     width: auto;
+    height: auto;
+   background: #4EC0CC;
+background: -webkit-linear-gradient(top left, #4EC0CC, #5F6910);
+background: -moz-linear-gradient(top left, #4EC0CC, #5F6910);
+background: linear-gradient(top left, #4EC0CC, #5F6910);
+    margin-top: 0;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 .sponsers{
@@ -532,6 +550,11 @@ a {
     background-color: #ffffff;
     margin-right: 0%;
     padding: 50px;
+}
+.para{
+    text-align: justify;
+    text-align-last: inherit;
+    
 }
 
 .footer {
@@ -547,6 +570,17 @@ a {
     padding: 100px;
     text-align: center;
 }
+.format1{
+    width: auto;
+    height: auto;
+    margin-top: 0;
+  background-image: linear-gradient(to right top, #b6c5de, #68c5de, #00c3c6, #4ad394, #b3d861);
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
 .imagefor{
     height: 500px;
     text-align: center;
