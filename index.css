@@ -605,11 +605,12 @@ background: linear-gradient(top left, #4EC0CC, #5F6910);
 
 .avatar2 {
    
-  border-radius:100%; 
-	height: 250px; 
-	width: 250px; 
-    padding: 25px;
-    text-align: center;
+  border-radius:50%; 
+	height: 300px; 
+	width: 300px; 
+   float: left;
+    margin-left: 10%;
+    padding: 20px;
 }
 #img1{
     text-align: center;
@@ -628,6 +629,25 @@ background: linear-gradient(top left, #4EC0CC, #5F6910);
     text-align: center;
     
 }
+
+
+
+
+@media (max-width:650px){
+  .team-member {
+    float: none;
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .team-member h3,
+  .team-member span {
+    margin: 15px auto;
+  }
+}
+
 .headd{
     text-align: center;
 }
