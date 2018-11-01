@@ -608,9 +608,8 @@ background: linear-gradient(top left, #4EC0CC, #5F6910);
   border-radius:50%; 
 	height: 300px; 
 	width: 300px; 
-   float: left;
-    margin-left: 10%;
-    padding: 20px;
+   position: center;
+    padding: 10%;
 }
 #img1{
     text-align: center;
@@ -627,7 +626,6 @@ background: linear-gradient(top left, #4EC0CC, #5F6910);
 .sponser-images{
     margin: auto;
     text-align: center;
-    
 }
 
 
@@ -886,8 +884,9 @@ a.socialIcon:hover, .socialHoverClass {
    .card-col-1,
 .card-col-2,
 .card-col-3{
-  width: 210px;;
+  width: 210px;
   text-align: center;
+  padding-left:50px;
     
 }
     .iframe1{
@@ -915,3 +914,8 @@ table {
 
 th, td {
     padding: 100px;
+}
+
+#namecir{
+	text-align: center;
+}
