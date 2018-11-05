@@ -17,7 +17,7 @@
 
 			width:100%;
 			height:100%;
-            background: url("./background-image/background.jpg");
+            background: url("./background-image/landscape for wwebsite.jpg");
             background-position: center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -604,6 +604,7 @@ a.socialIcon:hover, .socialHoverClass {
 		
 	.headd{
 		text-align: center;
+		color: black;
 	}
 
 /* Our Team
