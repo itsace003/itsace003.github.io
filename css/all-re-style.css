@@ -75,40 +75,20 @@
           padding-top:0;     
           font-family: 'Roboto Condensed', sans-serif;
 
-      }
+		}
 
 	   #countdown {
         
             margin-top: 0;
             font-size: 8em;
 
-	   }
+		}
 
       .head {
             
             margin-top: 10%;
             
-      }    
-        
-        
-      .fa {
-            
-            margin-right: 10px;
-            color:white;
-            
-      }
-        
-      .fa-facebook-official:hover {
-
-          color:#3B5998;
-
-      }
-
-      .fa-instagram:hover{
-
-          color:#cd486b;
-	
-      }
+		`}    
     
       .gall {
 
@@ -366,27 +346,6 @@
         transition: box-shadow .3s;
         float: right;
     }
-        
-        .sponsor-square {
-    
-    height: 200px;
-    width: 200px;
-        margin-top: 20px;
-    margin-bottom: 20px;
-     margin-left: 20px;
-    margin-right: 20px;
-    
-}
-
-.sponsor-rectangle {
-    
-    height: 200px;
-    width: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-     margin-left: 20px;
-    margin-right: 20px;
-}
         .gall {
 
           width:100%;
@@ -394,7 +353,7 @@
       
       }
         
-           .content {
+       .content {
         
         position: absolute;
         top: 0;
@@ -448,20 +407,6 @@
         
     }
     }
-
-.sponsor-square {
-    
-    height: 200px;
-    width: 200px;
-    
-}
-
-.sponsor-rectangle {
-    
-    height: 200px;
-    width: 300px;
-    
-}
 
 /* Footer Section */
 .footer {
@@ -642,3 +587,21 @@ a.socialIcon:hover, .socialHoverClass {
         .card-img-top:hover{
             text-decoration: none;
         }
+		
+	/*Sponsors*/
+		
+	.sponser-images{
+		margin: auto;
+		text-align: center;   
+	}
+		
+	.sponsers{
+  
+		background-color: #ffffff;
+		margin-right: 0%;
+		padding: 50px;
+	}
+		
+	.headd{
+		text-align: center;
+	}
