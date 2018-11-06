@@ -723,7 +723,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 /* Css for Mobile*/
 
-@media (min-width: 300px) and (max-width: 767px){
+@media (min-width: 300px) and (max-width: 1080px){
      html, body{
         font-size: 10px;
         overflow-x: hidden; 
