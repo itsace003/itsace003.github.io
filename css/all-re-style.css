@@ -55,7 +55,7 @@
       
         .jumbotron-fluid-3 {
                 
-            background-color: #FF384B;
+            background-image: linear-gradient(to right top, #eb3349, #ee3f47, #f04946, #f25344, #f45c43);
             overflow-y: hidden;
             margin-bottom: 0;
             border-radius: 0;
@@ -685,17 +685,17 @@ a.socialIcon:hover, .socialHoverClass {
 
 .socials a {
   display: inline-block;
-  width: 37px;
-  height: 37px;
+  width: 40px;
+  height: 40px;
   background-color: transparent;
 }
 
 .socials i {
   line-height: 37px;
   color: #616161;
-  font-size: 14px;
-  width: 37px;
-  height: 37px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   text-align: center;
   -webkit-transition: all 0.2s linear;
@@ -714,3 +714,29 @@ a.socialIcon:hover, .socialHoverClass {
   background-color: #355c7d;
 }
 
+#greytext{
+    background-color: rgba(188, 170, 170, 0.66);
+    padding: 1% 10% 10% 10%;
+    margin-top: 0;
+    color: black;
+    
+}
+/* Css for Mobile*/
+
+@media (min-width: 300px) and (max-width: 767px){
+     html, body{
+        font-size: 10px;
+        overflow-x: hidden; 
+    
+    }
+            
+    .sponsorsimg{
+        height: 40%;
+        width: 40%;
+    }
+    #mobilesize{
+        padding: 15%;
+    }
+    
+
+}
