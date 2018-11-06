@@ -16,7 +16,7 @@
         .jumbotron-fluid-1 {
 
 			width:100%;
-			height:100%;
+			height:auto;
             background: url("./background-image/landscape for wwebsite.jpg");
             background-position: center center;
             background-repeat: no-repeat cover cover;
