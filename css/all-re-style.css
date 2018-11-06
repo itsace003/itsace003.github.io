@@ -19,7 +19,7 @@
 			height:100%;
             background: url("./background-image/landscape for wwebsite.jpg");
             background-position: center center;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat cover cover;
             background-attachment: fixed;
             background-size: cover;
             background-color: #464646;
